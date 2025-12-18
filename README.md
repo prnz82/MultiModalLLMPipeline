@@ -44,6 +44,18 @@ To interpret the efficiency of the pipeline, we integrated real-time monitoring 
 *   **Model**: Google Gemini 1.5 Flash (via unified multimodal API)
 *   **Optimization**: In-memory caching prevents redundant processing for identical requests.
 
+## Deployment
+
+This application can be deployed to **Vercel's free tier** for both backend (serverless functions) and frontend (static site).
+
+📖 **[View Complete Deployment Guide →](DEPLOYMENT.md)**
+
+**Quick Overview:**
+- Backend deploys as serverless API with automatic scaling
+- Frontend deploys as static site with environment-based API configuration
+- Cold starts: ~1-3s after inactivity (expected on free tier)
+- File size limit: 4MB (Vercel free tier constraint)
+
 ## How to Run
 
 1.  **Backend**:

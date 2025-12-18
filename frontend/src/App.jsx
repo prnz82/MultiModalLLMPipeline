@@ -28,7 +28,8 @@ function App() {
     formData.append('intent', intent);
 
     try {
-      const response = await axios.post('http://localhost:3000/api/process', formData, {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+      const response = await axios.post(`${apiUrl}/api/process`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

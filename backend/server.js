@@ -22,7 +22,7 @@ if (!process.env.GEMINI_API_KEY) {
 const storage = multer.memoryStorage();
 const upload = multer({
     storage: storage,
-    limits: { fileSize: 10 * 1024 * 1024 }
+    limits: { fileSize: 4 * 1024 * 1024 }
 });
 
 app.post('/api/process', upload.single('file'), async (req, res) => {
