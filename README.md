@@ -1,4 +1,4 @@
-# Multi-Modal AI Orchestration Assignment
+# Multi-Modal AI Orchestration Project
 
 ## Project Overview
 This project processes **Images** and **Audio** inputs to generate context-aware text responses. Unlike simple API wrappers, this system implements a complex **Multi-Step Reasoning Pipeline** that allows users to guide the AI's output through specific **Intents** (e.g., Technical Analysis, Simplification).
