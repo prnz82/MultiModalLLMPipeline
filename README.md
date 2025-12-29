@@ -48,8 +48,6 @@ To interpret the efficiency of the pipeline, we integrated real-time monitoring 
 
 This application can be deployed to **Vercel's free tier** for both backend (serverless functions) and frontend (static site).
 
-📖 **[View Complete Deployment Guide →](DEPLOYMENT.md)**
-
 **Quick Overview:**
 - Backend deploys as serverless API with automatic scaling
 - Frontend deploys as static site with environment-based API configuration
